@@ -1,9 +1,6 @@
 import math
 
 def pythagoras(x,y):
-    if(x>100 or y>100):
-        print ("Choose Leghts between (0,100)")
-    else:
         c=math.sqrt((x**2)+(y**2))
         print ("First Lenght: {}\n".format(x))
         print ("Second Lenght: {}\n".format(y))
