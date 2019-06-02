@@ -1,6 +1,6 @@
 import math
 
-def pisagor(x,y):
+def pythagoras(x,y):
     if(x>100 or y>100):
         print ("Choose Leghts between (0,100)")
     else:
@@ -27,4 +27,4 @@ while True:
         if (b > 100):
             print ("Choose Leght between (0,100)")
         else:
-            pisagor(a,b)
+            pythagoras(a,b)
